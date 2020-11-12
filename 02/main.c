@@ -36,9 +36,9 @@ int main() {
     }
 
     for(i = 0; i < TAM; i++) {
-        fprintf(arquivo, "%d%s", strlen(alunos[i].nome), alunos[i].nome);
-        fprintf(arquivo, "%d%s", strlen(alunos[i].endereco), alunos[i].endereco);
-        fprintf(arquivo, "%d%s", strlen(alunos[i].curso), alunos[i].curso);
+        fprintf(arquivo, "%.2d%s", strlen(alunos[i].nome), alunos[i].nome);
+        fprintf(arquivo, "%.2d%s", strlen(alunos[i].endereco), alunos[i].endereco);
+        fprintf(arquivo, "%.2d%s", strlen(alunos[i].curso), alunos[i].curso);
     }
 
     fclose(arquivo);
