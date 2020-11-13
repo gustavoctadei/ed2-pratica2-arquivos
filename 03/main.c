@@ -50,8 +50,8 @@ int main() {
     }
 
     for(i = 0; i < TAM; i++) {
-        printf("%s|%s|%s\n", alunos[i].nome, alunos[i].endereco, alunos[i].curso);
-        fprintf(arquivo, "%s|%s|%s\n", alunos[i].nome, alunos[i].endereco, alunos[i].curso);
+        printf("%s|%s|%s|\n", alunos[i].nome, alunos[i].endereco, alunos[i].curso);
+        fprintf(arquivo, "%s|%s|%s|\n", alunos[i].nome, alunos[i].endereco, alunos[i].curso);
     }
 
     fclose(arquivo);

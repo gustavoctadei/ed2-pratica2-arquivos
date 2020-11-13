@@ -1,2 +1,2 @@
-Gustavo|P.Velho|Computacao
-Joao|Brasilia|SistemasInformacao
+Gustavo|P.Velho|Computacao|
+Joao|Brasilia|SistemasInformacao|
