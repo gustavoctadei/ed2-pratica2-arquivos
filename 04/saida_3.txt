@@ -1,0 +1,2 @@
+Nome=Gustavo|Endereco=P.Velho|Curso=Computacao|
+Nome=Joao|Endereco=Brasilia|Curso=SistemasInformacao|
